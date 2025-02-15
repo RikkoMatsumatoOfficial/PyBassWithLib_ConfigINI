@@ -1,0 +1,2 @@
+# PyBassWithLib_ConfigINI
+PyBassWithLib_ConfigINI by RikkoMatsumatoOfficial
