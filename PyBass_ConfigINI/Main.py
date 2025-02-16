@@ -18,7 +18,7 @@ def Main():
     ex_mp3 = readc['Config']['Output']
     x.BASS_INIT(device=-1, freq=48000, flags=0, win=0, dsguid=0)
     x.BASS_START()
-    print(ex_mp3)
+    print("You're Music File inside Configur.ini: " + ex_mp3)
     bnrb = x.BASS_StreamCreateFile(mem=0, filename=bytes(ex_mp3, "utf-8"), offset=0, length=0, flags=0x4)
     x.BASS_ChannelPlay(bnrb, False)
     while True:
